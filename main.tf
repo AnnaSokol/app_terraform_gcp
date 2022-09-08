@@ -1,6 +1,6 @@
 provider "google" {
-    credentials = file("a-config-cb607e41ca2b.json") // export key-file JSON
-    project = "215200687059"
+    credentials = file("xxxxx.json") // export key-file JSON
+    project = ""
     region = "us-west1"
     zone   = "us-west1-a"
 
