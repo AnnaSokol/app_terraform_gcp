@@ -9,8 +9,6 @@
 [Step 3: ](#configure) Configure Terraform </br>
 [Step 4: ](#adapt) Adapt the default parameters </br>
 [Step 5: ](#Create) Create VM with Terraform</br>
-[Step 6: ](#Web_App) Web_App </br>
-[Step 7: ](#Troubleshooting) Troubleshooting </br>
 
 ## Prerequisite:
 #### Example with free use GCP Instance:</br>
@@ -41,26 +39,6 @@ $ sudo apt-get install terraform
 3. Check version - Is it properly installed?
 ```
 $ terraform -v 
-```
-4. Check PATH of Terraform 
-```
-
-## Step 1: Download Terraform on Ubuntu
-***
-1. Choose your IDE and create a new Project
-Possible IDE: Eclipse, IntelliJ IDEA, PyCharm, Visual Studio Code etc. </br>
-2. Install Terraform </br>
-(Newest Version of Terraform: https://www.terraform.io/downloads)</br>
-```
-$ sudo apt-get install terraform
-```
-3. Check version - Is it properly installed?
-```
-$ terraform -v 
-```
-4. Check PATH of Terraform 
-```
-$ which terraform which terraform 
 ```
 
 ## Step 2: Clone Repository
